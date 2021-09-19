@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Irei mostrar os países dos continentes a baixo");
         System.out.println();
 
-        while (menu == true){
+        while (menu){
             //Menu dos paises
             System.out.println("Digite 1: Para o continente da " +continente.get(0));
             System.out.println("Digite 2: Para o continente da " +continente.get(1));
