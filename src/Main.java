@@ -51,22 +51,11 @@ public class Main {
                     pais4.territorio = 100.210;
                     pais4.populacao = 51.71;
 
-                    System.out.println("Nome do país: " +pais1.nome);
-                    System.out.println("Tamanho do territorio: " +pais1.territorio + " km²");
-                    System.out.println("Populção: " +pais1.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais2.nome);
-                    System.out.println("Tamanho do territorio: " +pais2.territorio + " km²");
-                    System.out.println("Populção: " +pais2.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais3.nome);
-                    System.out.println("Tamanho do territorio: " +pais3.territorio + " km²");
-                    System.out.println("Populção: " +pais3.populacao + " bilhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais4.nome);
-                    System.out.println("Tamanho do territorio: " +pais4.territorio + " km²");
-                    System.out.println("Populção: " +pais4.populacao + " milhões");
-                    System.out.println();
+                    System.out.println(pais1.informacoes());
+                    System.out.println(pais2.informacoes());
+                    System.out.println(pais3.informacoes());
+                    System.out.println(pais4.informacoes());
+
                     break;
                 case 2:
                     pais1.nome = "Alemanha";
@@ -85,22 +74,10 @@ public class Main {
                     pais4.territorio = 242.495;
                     pais4.populacao = 66.65;
 
-                    System.out.println("Nome do país: " +pais1.nome);
-                    System.out.println("Tamanho do territorio: " +pais1.territorio + " km²");
-                    System.out.println("Populção: " +pais1.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais2.nome);
-                    System.out.println("Tamanho do territorio: " +pais2.territorio + " km²");
-                    System.out.println("Populção: " +pais2.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais3.nome);
-                    System.out.println("Tamanho do territorio: " +pais3.territorio + " km²");
-                    System.out.println("Populção: " +pais3.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais4.nome);
-                    System.out.println("Tamanho do territorio: " +pais4.territorio + " km²");
-                    System.out.println("Populção: " +pais4.populacao + " milhões");
-                    System.out.println();
+                    System.out.println(pais1.informacoes());
+                    System.out.println(pais2.informacoes());
+                    System.out.println(pais3.informacoes());
+                    System.out.println(pais4.informacoes());
                     break;
                 case 3:
                     pais1.nome = "Argentina";
@@ -119,22 +96,10 @@ public class Main {
                     pais4.territorio = 1.285;
                     pais4.populacao = 32.51;
 
-                    System.out.println("Nome do país: " +pais1.nome);
-                    System.out.println("Tamanho do territorio: " +pais1.territorio + " km²");
-                    System.out.println("Populção: " +pais1.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais2.nome);
-                    System.out.println("Tamanho do territorio: " +pais2.territorio + " km²");
-                    System.out.println("Populção: " +pais2.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais3.nome);
-                    System.out.println("Tamanho do territorio: " +pais3.territorio + " km²");
-                    System.out.println("Populção: " +pais3.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais4.nome);
-                    System.out.println("Tamanho do territorio: " +pais4.territorio + " km²");
-                    System.out.println("Populção: " +pais4.populacao + " milhões");
-                    System.out.println();
+                    System.out.println(pais1.informacoes());
+                    System.out.println(pais2.informacoes());
+                    System.out.println(pais3.informacoes());
+                    System.out.println(pais4.informacoes());
                     break;
                 case 4:
                     pais1.nome = "Estados Unidos";
@@ -153,22 +118,10 @@ public class Main {
                     pais4.territorio = 1.973;
                     pais4.populacao = 127.6;
 
-                    System.out.println("Nome do país: " +pais1.nome);
-                    System.out.println("Tamanho do territorio: " +pais1.territorio + " km²");
-                    System.out.println("Populção: " +pais1.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais2.nome);
-                    System.out.println("Tamanho do territorio: " +pais2.territorio + " km²");
-                    System.out.println("Populção: " +pais2.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais3.nome);
-                    System.out.println("Tamanho do territorio: " +pais3.territorio + " km²");
-                    System.out.println("Populção: " +pais3.populacao + " milhões");
-                    System.out.println();
-                    System.out.println("Nome do país: " +pais4.nome);
-                    System.out.println("Tamanho do territorio: " +pais4.territorio + " km²");
-                    System.out.println("Populção: " +pais4.populacao + " milhões");
-                    System.out.println();
+                    System.out.println(pais1.informacoes());
+                    System.out.println(pais2.informacoes());
+                    System.out.println(pais3.informacoes());
+                    System.out.println(pais4.informacoes());
                     break;
                 case 5:
                     System.out.println("Finalizando programa.");
