@@ -3,7 +3,8 @@ public class Pais {
     double territorio;
     double populacao;
 
-    public Pais(){
-
+    String informacoes (){
+        return "Nome do país: " + nome + "\nTamanho do territorio: " + territorio + " km²" + "\nPopulação: " + populacao + " milhões\n";
     }
+
 }
